@@ -187,7 +187,7 @@ fun main ()
         {
         when
         {
-            xd<=0 &&xd>=-1 -> yd = Math.sqrt(xa.pow(2) + 1)
+            xd<=0 &&xd>=-1 -> yd = Math.sqrt(xd.pow(2) + 1)
             xd>1 && xd<=2-> yd=1.0
             xd>2 -> yd = xd-1.0
         }
